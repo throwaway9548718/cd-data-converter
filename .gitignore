@@ -1,0 +1,8 @@
+__pycache__
+.pytest_cache
+.hypothesis
+.tox
+build
+venv
+*.xml
+*.json

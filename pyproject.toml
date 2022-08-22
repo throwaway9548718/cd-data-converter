@@ -1,0 +1,15 @@
+[tool.black]
+line-length = 100
+fast = true
+
+[tool.mypy]
+python_version = 3.8
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["pydantic.*", "typer", "defusedxml.*", "pybloom"]
+
+[build-system]
+requires = ["setuptools >= 65.0.0"]
+build-backend = "setuptools.build_meta"
+

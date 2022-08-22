@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Empire Burlesque",
+        "performer_lastname": "Dylan",
+        "performer_firstname": "Bob",
+        "origin": "USA",
+        "published": 1985,
+        "price_no_vat": 8.175,
+        "vat": 2.725,
+        "tot": 10.9
+    }
+]
